@@ -12,6 +12,8 @@ import com.mongodb.spark.config._
 
 //sc.getConf
 
+//bybranch
+
  val input = sc.textFile("/users/prudhvi/downloads/sample.txt")
 val conf = new SparkConf().setAppName("InjestToMongo").setMaster("local[2]")
 
